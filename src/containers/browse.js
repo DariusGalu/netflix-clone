@@ -49,10 +49,10 @@ export function BrowseContainer({ slides }) {
             <Header.Frame>
             <Header.Group>
                 <Header.Logo to={ROUTES.HOME} src={logo} alt="Netflix" />
-                <Header.TextLink /*active={category === 'series' ? 'true' : 'false'} onClick={() => setCategory('series')}*/>
+                <Header.TextLink active={category === 'series' ? 'true' : 'false'} onClick={() => setCategory('series')}>
                 Series
                 </Header.TextLink>
-                <Header.TextLink /*active={category === 'films' ? 'true' : 'false'} onClick={() => setCategory('films')}*/>
+                <Header.TextLink active={category === 'films' ? 'true' : 'false'} onClick={() => setCategory('films')}>
                 Films
                 </Header.TextLink>
             </Header.Group>
