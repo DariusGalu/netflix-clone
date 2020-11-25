@@ -67,7 +67,7 @@ export default function Signin() {
                     </Form.Text>
 
                     <Form.TextSmall>
-                        This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.
+                        Thsis page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.
                     </Form.TextSmall>
                 </Form>
             </HeaderContainer>
